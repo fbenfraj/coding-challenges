@@ -1,0 +1,23 @@
+{
+  "name": "coding-challenges",
+  "version": "1.0.0",
+  "description": "Given a list of numbers and a number k, return whether any two numbers from the list add up to k.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fbenfraj/coding-challenges.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fbenfraj/coding-challenges/issues"
+  },
+  "homepage": "https://github.com/fbenfraj/coding-challenges#readme",
+  "dependencies": {
+    "typescript": "^4.9.3"
+  }
+}
