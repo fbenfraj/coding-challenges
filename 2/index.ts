@@ -1,5 +1,3 @@
-const arrayTest: number[] = [1, 2, 3, 4, 5];
-
 function sumAllExceptIndex(arr: number[]): number[] {
   let finalArray = [];
 
@@ -12,8 +10,4 @@ function sumAllExceptIndex(arr: number[]): number[] {
 
   return finalArray;
 }
-
-const result: number[] = sumAllExceptIndex(arrayTest);
-console.log("Result:", result);
-
 export { sumAllExceptIndex };

@@ -1,6 +1,3 @@
-const array: number[] = [10, 15, 3, 7];
-const k: number = 17;
-
 function checkSumEqualTarget(arr: number[], k: number) {
   let check = false;
 
@@ -15,8 +12,5 @@ function checkSumEqualTarget(arr: number[], k: number) {
 
   return check;
 }
-
-const result = checkSumEqualTarget(array, k);
-console.log(result);
 
 export { checkSumEqualTarget };

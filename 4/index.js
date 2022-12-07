@@ -1,6 +1,5 @@
 "use strict";
-const testArray1 = [3, 4, -1, 1];
-const testArray2 = [1, 2, 0];
+Object.defineProperty(exports, "__esModule", { value: true });
 function findLowestPositive(arr) {
     const positives = arr.filter((n) => n > 0);
     const noDuplicates = [...new Set(positives)];
@@ -12,7 +11,4 @@ function findLowestPositive(arr) {
     }
     return sorted.length + 1;
 }
-const result1 = findLowestPositive(testArray1);
-const result2 = findLowestPositive(testArray2);
-console.log(result1);
-console.log(result2);
+exports.default = findLowestPositive;

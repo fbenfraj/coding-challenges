@@ -9,13 +9,4 @@ class CustomNode {
   }
 }
 
-const myNode: CustomNode = new CustomNode(
-  "root",
-  new CustomNode("left", new CustomNode("left.left")), //root.left
-  new CustomNode("right") //root.right
-);
-
-const stringified = JSON.stringify(myNode);
-const parsed = JSON.parse(stringified);
-
-console.log(parsed.left.left.val);
+export default CustomNode;

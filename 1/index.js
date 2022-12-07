@@ -1,8 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.checkSumEqualTarget = void 0;
-const array = [10, 15, 3, 7];
-const k = 17;
 function checkSumEqualTarget(arr, k) {
     let check = false;
     for (let i = 0; i < arr.length; i++) {
@@ -16,5 +14,3 @@ function checkSumEqualTarget(arr, k) {
     return check;
 }
 exports.checkSumEqualTarget = checkSumEqualTarget;
-const result = checkSumEqualTarget(array, k);
-console.log(result);
